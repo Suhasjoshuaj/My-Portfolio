@@ -14,11 +14,11 @@ html, body {
 }
 
 body {
-    background: linear-gradient(to top, #aba9ad, #f7f7f7);
+    background: linear-gradient(to top, #ecebed, #f7f7f7);
     background-attachment: fixed !important; /* Prevents gradient from repeating */
 }
 #head{
-    background-color: #a9c0ab !important;
+    background-color: #b3ccb5 !important;
     position: fixed;
     width: 100%;
     font-size: 1.05rem;
@@ -67,7 +67,7 @@ body {
 
 
 .icons{
-    background-color: #7d8b7e;
+    background-color: #879c89;
     width: 60px;
     height: 60px;
     border-radius: 20px;
@@ -86,7 +86,7 @@ body {
     margin-bottom: 50px;
 }
 .background{
-    background-color: #727D73 !important;
+    background-color: #768b78 !important;
 }
 .colour{
     color: #FFFFFF;
@@ -127,8 +127,14 @@ body {
 .contact-button:hover {
     background-color: #727D73;
 }
-
-
+.navbar-brand{
+    font-size: 24px;
+    font-weight: 500;
+}
+.nav-item{
+    font-size: large;
+    font-weight: 400;
+}
 
 
 /* background of icons and modules #555252 */ 
