@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body {
+    height: auto; /* Ensures it takes full page height */
+    min-height: 100vh; /* At least full viewport height */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth scroll;
+}
+
+body {
+    background: linear-gradient(to top, #ecebed, #f7f7f7);
+    background-attachment: fixed !important; /* Prevents gradient from repeating */
+}
+#head{
+    background-color: #29527d !important;
+    position: fixed;
+    width: 100%;
+    font-size: 1.05rem;
+}
+.navbar-brand{
+    margin: 0%;
+}
+.background-nav{
+    background-color: #a9c0ab !important;
+}
+#main{
+    min-height: 100vh;
+}
+#mid{
+    min-height: 100vh; 
+}
+.title { 
+    text-align: center;
+    
+}
+
+.t1, .t2, .t3{
+    text-align: center ; 
+    margin: 0%;
+}
+.t1{
+    font-size: 3rem;
+    margin-bottom: 0%;
+    padding-top: 30vh;
+    font-weight: bolder;
+}
+.t2{
+    font-size: 1.5rem;
+    margin-top: 15px;
+    font-weight: 520;
+    padding-bottom: 20px;
+}
+.t3 {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    text-align: center !important;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.icons{
+    background-color: #29527d;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+.con{
+    margin: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.background{
+    background-color: #207dda3e  !important;
+}
+.colour{
+    color: #FFFFFF;
+}
+.centered{
+    text-align: center !important;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    <a class="centered" href="mailto:exampleJoshua@gmail.com">CONTACT ME</a>
+     */
+    
+    
+}
+#bottom .centered{
+    padding-top: 150px;
+    padding-bottom: 0;
+}
+#bottom p.fs-5.centered{
+    padding-top: 33px;
+}
+.contact-message {
+    width: 50%;
+    margin: 40px auto 60px;
+}
+#bottom a{
+    text-decoration: none;
+    
+}
+.bottom-container {
+    display: block;
+    unicode-bidi: isolate-override;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+.contact-button:hover {
+    background-color: #7ca6d1ed;
+}
+.navbar-brand{
+    font-size: 24px;
+    font-weight: 500;
+}
+.nav-item{
+    font-size: large;
+    font-weight: 400;
+}
+
+
+/* background of icons and modules #555252 */ 
