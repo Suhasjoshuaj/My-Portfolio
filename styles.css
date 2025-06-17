@@ -18,7 +18,7 @@ body {
     background-attachment: fixed !important; /* Prevents gradient from repeating */
 }
 #head{
-    background-color: #29527d !important;
+    background-color: #435d78 !important;
     position: fixed;
     width: 100%;
     font-size: 1.05rem;
@@ -67,7 +67,7 @@ body {
 
 
 .icons{
-    background-color: #29527d;
+    background-color: #435d78;
     width: 60px;
     height: 60px;
     border-radius: 20px;
@@ -86,7 +86,7 @@ body {
     margin-bottom: 50px;
 }
 .background{
-    background-color: #207dda3e  !important;
+    background-color: #435d78!important;
 }
 .colour{
     color: #FFFFFF;
